@@ -1,10 +1,10 @@
 # Site
-name: 'Archive for CIRES'
-description: 'This is the site to archive the content generated in seminars in CIRES.'
+name: 'Archive of CIRES'
+description: 'This is the site to archive the content in seminars of CIRES.'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: ''
-disqus: 'demowebsite'
+disqus: ''
 email: 'cires.reading@gmail.com'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 
@@ -20,20 +20,13 @@ plugins:
   
 authors:
     sal:
-      name:           Sal
-      site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatar1.jpg
-      bio:            "Hi, I am Sal, the author of Mundana, the theme you're currently previewing. I hope you like it!"
-      email:          wowthemesnet@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
+      name:
+      site:
+      avatar:
+      bio:            ""
+      email:
+      twitter:
 
-    jane:
-      name:           Jane
-      site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatar2.jpg
-      bio:            "Blogger, fashionista, love to explore new ideas and write on my morning coffee!"
-      email:          fakemail@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
  
 # Defaults
 defaults:
@@ -43,7 +36,7 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      author: sal
+      author:
       avatar: /assets/images/avatar1.jpg
       
   # all pages
