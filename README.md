@@ -1,7 +1,7 @@
 # CIRES ARCHIVE
 
 
-### How to add your content.
+### How to add your content
 
 
 
