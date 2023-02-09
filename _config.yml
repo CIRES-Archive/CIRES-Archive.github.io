@@ -1,6 +1,6 @@
 # Site
 name: 'Archive of CIRES'
-description: 'This is the site to archive the content in seminars of CIRES.'
+description: 'CIRES - creating value with information resilience.'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: ''
