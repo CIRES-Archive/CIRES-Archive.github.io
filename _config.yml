@@ -1,12 +1,12 @@
 # Site
-name: 'Archive of CIRES'
-description: 'CIRES - creating value with information resilience.'
+name: 'CIRES Archive'
+description: 'The stories of CIRES'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: ''
 disqus: 'https-cires-archive-github-io'
 email: 'jl.yu@uq.edu.au'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+mailchimp-list: ''
 
 include: ["_pages"]
 permalink: /:title/
@@ -20,14 +20,11 @@ plugins:
   
 authors:
     junliang:
-      name: Junliang Yu
-      site: https://junliang-yu.github.io
-      avatar:
+      name:           Junliang Yu
+      site:           https://junliang-yu.github.io
       bio:            ""
-      email: "jl.yu@uq.edu.au"
-      twitter:
+      email:          jl.yu@uq.edu.au
 
- 
 # Defaults
 defaults:
 
@@ -36,7 +33,7 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      author:
+      author: junliang
       avatar: /assets/images/avatar1.jpg
       
   # all pages
