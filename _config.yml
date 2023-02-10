@@ -4,7 +4,7 @@ description: 'Find all the stories of CIRES'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: ''
-disqus: 'https-cires-archive-github-io'
+disqus: 'cires-archive-1'
 email: 'jl.yu@uq.edu.au'
 mailchimp-list: ''
 
