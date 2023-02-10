@@ -1,6 +1,6 @@
 # Site
-name: 'CIRES Archive'
-description: 'The stories of CIRES'
+name: 'CIRES ARCHIVE'
+description: 'Find all the stories of CIRES'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: ''
