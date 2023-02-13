@@ -272,3 +272,8 @@ Conferences can be a great way to learn from others’ experiences, get exposure
 *   [ACL](https://2021.aclweb.org/): The Association for Computational Linguistics (ACL) is the international scientific and professional society for people working on problems involving natural language and computation.
 *   [SIGIR](https://sigir.org/sigir2021/): The annual SIGIR conference is the major international forum for the presentation of new research results and the demonstration of new systems and techniques in the broad field of information retrieval (IR).
 *   [MLSys](https://mlsys.org/): The Conference on Machine Learning and Systems targets research at the intersection of systems and Machine Learning.
+
+
+`Original article`: 
+> https://medium.com/data-science-at-microsoft/data-science-learning-resources-193ccf6fafb
+> 
