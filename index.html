@@ -30,7 +30,7 @@ description: ""
     <p class="excerpt">
         {{ latest_post.excerpt | strip_html | strip_newlines | truncate: 136 }}
     </p>
-    <div>
+      <!-- <div>
         <small class="d-block text-muted">
             In <span class="catlist">
                 {% for category in latest_post.categories %}
@@ -41,7 +41,7 @@ description: ""
         <small class="text-muted">
             {{ latest_post.date | date: '%b %d, %Y' }}
         </small>
-    </div>
+    </div> -->
     </div>
     </div>
     </div>
@@ -142,7 +142,7 @@ description: ""
             <div class="col-md-6 pt-6 pb-6 pr-lg-4 align-self-center">
                 <h1 class="mb-3">{{post.title}}</h1>
                 <p class="mb-3 lead">
-                    {{ post.excerpt | strip_html | strip_newlines | truncate: 136 }}
+                    {{ post.excerpt | strip_html | strip_newlines | truncate: 150 }}
                 </p>
                 <a href="{{site.baseurl}}{{post.url}}" class="btn btn-dark">Read More</a>
             </div>
