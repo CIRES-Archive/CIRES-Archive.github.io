@@ -6,7 +6,7 @@ image: assets/images/6.jpg
 tags: featured
 ---
 
-cience is a popular field and garners a lot of interest. Whether you’re looking to become a data scientist or leverage data science skills in your current role, “where should I start?” and “what are some good books?” are common questions. Data science is also a broad field, with many skill areas to continue growing in your career. Given this, it can be helpful to put together a learning plan. In this article, we hope to share some worthwhile resources that we’ve used to build a data science foundation.
+Data science is a popular field and garners a lot of interest. Whether you’re looking to become a data scientist or leverage data science skills in your current role, “where should I start?” and “what are some good books?” are common questions. Data science is also a broad field, with many skill areas to continue growing in your career. Given this, it can be helpful to put together a learning plan. In this article, we hope to share some worthwhile resources that we’ve used to build a data science foundation.
 
 In an [earlier article](/data-science-at-microsoft/the-data-scientist-toolbelt-985c86e54fd3?source=friends_link&sk=af1dd8797c9e570f3fbfc7da88c01b34), we shared a list of skills to be an effective data scientist. In this one, we provide resources, including ones such as courses, books, and papers, to help develop those skills. In particular, we expand here on the technical skills section of the prior article, given that business and domain resources depend on the particular domain context.
 
