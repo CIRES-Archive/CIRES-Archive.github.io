@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Data science learning resources"
+title:  "Data Science Learning Resources"
 categories: [ Resource, Data-Science ]
 image: assets/images/6.jpg
 tags: featured
