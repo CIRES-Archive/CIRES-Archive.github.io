@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "How does ChatGPT Obtain its Ability? "
+title:  "How Does ChatGPT Obtain its Ability? "
 author: Junliang
-categories: [ Tech Report, tutorial ]
+categories: [ Tech-Report, tutorial ]
 image: assets/images/chatgpt.jpg
 tags: [sticky]
 ---

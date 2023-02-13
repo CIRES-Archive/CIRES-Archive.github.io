@@ -3990,7 +3990,7 @@ input[type="button"].btn-block {
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  background-color: #7FB174;
+  background-color: #ebc57c;
   border-radius: 0.3rem; }
   @media (min-width: 576px) {
     .jumbotron {
@@ -5137,7 +5137,7 @@ button.bg-orange:focus {
   background-color: #c89000 !important; }
 
 .bg-lightblue {
-  background-color: #7fb174 !important; }
+  background-color: #ebc57c !important; }
 
 a.bg-lightblue:hover, a.bg-lightblue:focus,
 button.bg-lightblue:hover,
