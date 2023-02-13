@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Top 6 Python Libraries for Visualization: Which one to Use?"
-author: sal
 categories: [ Resource, tutorial ]
 image: assets/images/12.jpg
+tags: featured
 ---
 
 ![](https://miro.medium.com/max/1155/0*CUq-RVgGP3Ur6m-Q)
