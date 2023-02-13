@@ -5,18 +5,14 @@ categories: [ Resource, tutorial ]
 image: assets/images/12.jpg
 tags: featured
 ---
-
-Motivation
-==========
-
 If you’re starting off with Python visualization, you may be overwhelmed with the number of libraries and examples:
 
-*   Matplotlib
-*   Seaborn
-*   Plotly
-*   Bokeh
-*   Altair
-*   Folium
++ Matplotlib
++ Seaborn
++ Plotly
++ Bokeh
++ Altair
++ Folium
 
 If you have a DataFrame waiting to be visualized, which one should you pick? Some libraries might be better in specific cases than the others. This article will show the pros and cons of each. By the end of this article, you should be able to **distinguish the different features of each library** and have an **easier time choosing the optimal one**.
 
@@ -63,7 +59,7 @@ Matplotlib
 Pros
 ----
 
-1.  **Easy to see the property of the data**
+**1\. Easy to see the property of the data**
 
 When analyzing data, having a quick look at the distribution may be ideal.
 
