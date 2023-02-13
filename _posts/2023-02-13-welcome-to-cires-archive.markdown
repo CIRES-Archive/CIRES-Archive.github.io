@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to CIRES Archive!"
 categories: [ welcome ]
-image: assets/images/achive.jpg
+image: assets/images/archive.jpg
 ---
 Welcome to the `CIRES` Information Archive! Our goal is to provide you with a comprehensive collection of knowledge and resources generated and discussed by our academic community. This website serves as a hub for researchers, students, and anyone seeking information related to `CIRES`.
 
