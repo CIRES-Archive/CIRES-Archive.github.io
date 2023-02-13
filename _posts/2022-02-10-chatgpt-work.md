@@ -156,3 +156,8 @@ Sources
 3.  [https://medium.com/r/?url=https%3A%2F%2Fdeepai.org%2Fmachine-learning-glossary-and-terms%2Fsoftmax-layer](https://deepai.org/machine-learning-glossary-and-terms/softmax-layer)
 4.  [https://www.assemblyai.com/blog/how-chatgpt-actually-works/](https://www.assemblyai.com/blog/how-chatgpt-actually-works/)
 5.  [https://medium.com/r/?url=https%3A%2F%2Ftowardsdatascience.com%2Fproximal-policy-optimization-ppo-explained-abed1952457b](/proximal-policy-optimization-ppo-explained-abed1952457b)
+
+
+`Original article`: 
+> https://towardsdatascience.com/how-chatgpt-works-the-models-behind-the-bot-1ce5fca96286
+> 

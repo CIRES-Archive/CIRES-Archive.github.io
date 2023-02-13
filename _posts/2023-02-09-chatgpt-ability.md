@@ -293,5 +293,7 @@ Or
     - On the other hand, the knowledge from search engine is orders or magnitude larger than LLM’s internal knowledge, can one can easily verify credibility of search results by checking the source.
     - Combining LLMs and search is a good direction. Let search handle knowledge, let LLMs handle reasoning.
 
-> Original article: https://yaofu.notion.site/How-does-GPT-Obtain-its-Ability-Tracing-Emergent-Abilities-of-Language-Models-to-their-Sources-b9a57ac0fcf74f30a1ab9e3e36fa1dc1
+
+`Original article`: 
+> https://yaofu.notion.site/How-does-GPT-Obtain-its-Ability-Tracing-Emergent-Abilities-of-Language-Models-to-their-Sources-b9a57ac0fcf74f30a1ab9e3e36fa1dc1
 > 
