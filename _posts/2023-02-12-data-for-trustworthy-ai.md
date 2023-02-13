@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Advances, challenges and opportunities in creating data for trustworthy AI"
+title:  "Advances, Challenges and Opportunities in Creating Data for Trustworthy AI"
 categories: [ paper-recommendation, perspective ]
 image: assets/images/trustAI.jpg
 tags: [trustworthy]
