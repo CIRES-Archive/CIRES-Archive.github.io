@@ -1,271 +1,145 @@
 ---
 layout: post
-title:  "Top 6 Python Libraries for Visualization: Which one to Use?"
+title:  "Top Python Libraries for Data Visualization (Static and Interactive Visualization)"
 categories: [ Resource, tutorial ]
 image: assets/images/12.jpg
 tags: featured
 ---
-If you’re starting off with Python visualization, you may be overwhelmed with the number of libraries and examples:
 
-+ Matplotlib
-+ Seaborn
-+ Plotly
-+ Bokeh
-+ Altair
-+ Folium
+Basically, We aren’t naturally good at storytelling with data. Data visualization helps us shorten our time to understand and explain the insights contained in our data. So what exactly is meant by data visualization? Data visualization is depicting data in visual form (such as graphs, charts, infographics, animations, or maps) to make it easier to understand. The main uses for data visualization are to explore data and to communicate data. So, what’s the big deal with data visualization? Data visualization is critical because it assists us in reducing the time it takes to understand data and makes it easier for us to storytelling with data.
 
-If you have a DataFrame waiting to be visualized, which one should you pick? Some libraries might be better in specific cases than the others. This article will show the pros and cons of each. By the end of this article, you should be able to **distinguish the different features of each library** and have an **easier time choosing the optimal one**.
+There are several Python libraries that can help us to create data visualizations. In this article, I’ll go through several python libraries that can be used for data visualization (static and interactive visualization). So let’s get started!
 
-We will do this by using a sample dataset and exploring it using each library, focusing on a few specific attributes:
+**1\. Matplotlib**
+==================
 
-**Interactivity**
+In the first position, I will place Matplotlib as the most widely used Python library for data visualization. Matplotlib is a library used for classic data visualization. Everyone who starts learning data visualization in python must have used Matplotlib. The types of data visualization in Matplotlib include basic plots, plots of arrays, statistics plots, and plots for unstructured coordinates. There are many third-party packages built on top of and extending Matplotlib, such as Seaborn, Cartopy, DNA Features Viewer, Plotnine, WCS Axes, and [more](https://matplotlib.org/mpl-third-party/). Until now, Matplotlib version 3.5.2 has been released.
 
-Do you want your visualization to be interactive?
+![](https://miro.medium.com/max/823/1*R72ols2r0eNlbtSOU5NvtA.png)
 
-Some libraries, such as Matplotlib, render visualizations as images; thus, they are good for **explaining** concepts (in a paper, slide deck, or presentation).
+Several types of data visualization can be created using Matplotlib (Image compiled by the author).
 
-On the other hand, libraries like Altair, Bokeh, and Plotly allow you to create interactive graphs that your users can dive into and **explore** themselves
+Before using Matplotlib, you need to install it first.
+```
+# Install using pip:  
+pip install matplotlib
+# Install using conda:  
+conda install matplotlib
+```
 
-**Syntax and Flexibility**
+You can read more about Matplotlib [here](https://matplotlib.org/stable/).
 
-How does the syntax for each library differ? Lower-level libraries such as Matplotlib let you do anything you could conceivably want — but at the cost of a more complex API. Some libraries such as Altair are very _declarative_, which makes it easier to map to your data.
+**2\. Seaborn**
+===============
 
-**Type of data and visualization**
+Next, I will put Seaborn in second place after Matplotlib. Seaborn is a python library built on top of Matplotlib for data visualization. It provides a high-level interface for drawing attractive and informative statistical graphics. In addition, seaborn is also integrated with the pandas data structure. Seaborn is designed to be effective throughout a research project’s lifecycle. Seaborn supports rapid prototyping and exploratory data analysis by providing entire images from a single function call with minimum input. It can also be used to create polished, publication-quality figures because it provides many customization possibilities as well as exposes the underlying Matplotlib objects (Waskom, 2021). Until now, Seaborn version 0.11.2 has been released.
 
-Are you working with a specialized use-case, such as a geographical plot, with large data, or using a plot-type which is only supported by a certain library?
+![](https://miro.medium.com/max/1155/1*ktXbs32nkJTTVCPBGV1Dzg.png)
 
-Data
-====
+Several types of statistical data visualization can be created using seaborn (Image from [Seaborn](https://seaborn.pydata.org/)).
 
-To make it easier to compare, I will use the real data I scrape from Github in this article:
+Before using Seaborn you need to install it first. Keep in mind, that when you install Seaborn then several other libraries such as NumPy, SciPy, pandas, and Matplotlib will also be installed.
 
-[](/i-scraped-more-than-1k-top-machine-learning-github-profiles-and-this-is-what-i-found-1ab4fb0c0474)
+```
+# Install using pip:  
+pip install seaborn
+# Install using conda:  
+conda install seaborn
+```
 
-![](https://miro.medium.com/max/1155/1*y8G8Z0uLYQ4CJIvSSv8hWA.png)
+You can read more about Seaborn [here](https://seaborn.pydata.org/index.html).
 
-I’m going to be embedding the visualizations from each library using Datapane, which is a Python framework and API for publishing and sharing Python reports. If you want to see more real-world examples, check out the user-contributed reports in [Datapane gallery](https://datapane.com/gallery/).
+**3\. Plotly**
+==============
 
-To follow the article, you either download the csv file from [here](https://datapane.com/khuyentran1401/reports/github_data_dd10c22b/) or get the direct data from [Datapane Blob](/how-to-share-your-python-objects-across-different-environments-in-one-line-of-code-f30a25e5f50e).
+After Seaborn, I will put Plotly as a python library for interactive data visualization. Plotly is an interactive visualization library that’s used for visualizing data in Jupyter, in the browser locally, or even hosting these graphs to be viewed on a platform for visualizations and dashboards created by the Plotly team called Dash. Plotly has over 40 chart types to choose from, covering a wide range of statistical, financial, geographic, scientific, and 3-dimensional applications. Plotly Python is built on the JavaScript library Plotly (`plotly.js`). Until now, Plotly for python version 5.8.0 has been released.
 
-import datapane as dpdp.Blob.get(name='github\_data', owner='khuyentran1401').download\_df()
+![](https://miro.medium.com/max/825/1*8RukHyTzPE8lJOWNp13qiw.png)
 
-Remember to log in to [Datapane](https://datapane.com/) with your token beforehand if you want to use the Blob. This should take less than 1 minute
+Several basic graphics on Plotly (Image from [Plotly](https://plotly.com/python/basic-charts/)).
 
-Matplotlib
-==========
+Before using Plotly you need to install it first.
 
-[Matplotlib](https://matplotlib.org/) is probably the most common Python library for visualizing data. Everybody who is interested in data science has probably used Matplotlib at least once.
+```
+Install using pip:  
+pip install plotly
+#Install using conda:  
+conda install -c plotly plotly
+```
+You can read more about Plotly [here](https://plotly.com/python/).
 
-Pros
-----
+**4\. Bokeh**
+=============
 
-**1\. Easy to see the property of the data**
+In fourth place, there is Bokeh. Just like Plotly, Bokeh is a python library used for interactive data visualization. Bokeh focuses on the Python ecosystem, while Plotly builds on top `plotly.js`. Plots, dashboards, and apps that are created using Bokeh can be published in web pages or Jupyter notebooks. In addition, one of the advantages of Bokeh is that you can create JavaScript-powered visualizations without writing any JavaScript yourself. Until now, Bokeh version 2.4.3 has been released.
 
-When analyzing data, having a quick look at the distribution may be ideal.
+![](https://miro.medium.com/max/1155/1*N8i9JNodJSelt8ZbT2oyQw.png)
 
-For example, if I want to have a quick look at the distribution of the top 100 users with the most followers, using Matplotlib is usually enough.
+Several types of data visualization can be created using Bokeh (Image from [Bokeh](https://docs.bokeh.org/en/latest/index.html)).
 
-Even though the x-axis of Matplotlib does not look good, we have a better understanding of the distribution of the data by looking at the graph.
+Before using Bokeh you need to install it first.
+```
+# Install using pip:  
+pip install bokeh
+# Install using conda:  
+conda install bokeh
+```
 
-**2\. Can Plot anything**
+You can read more about Bokeh [here](https://docs.bokeh.org/en/latest/index.html).
 
-Matplotlib is very versatile, which means it can plot any kind of graph you could imagine. The Matplotlib’s [website](https://matplotlib.org/tutorials/introductory/sample_plots.html) contains very comprehensive documentation and various graphs in the [gallery](https://matplotlib.org/gallery/index.html), which makes it easy to find tutorials for any crazy plot you can think of.
+**5\. Altair**
+==============
 
-Like some text like this:
+In the fifth position, there is an Altair. Altair is a python library for declarative data visualization based on Vega and Vega-lite. The main concept of this library is that we don’t need to explicitly write every feature in the graph (such as the x-axis, y-axis, color, etc.). These details will be handled automatically by Altair. By using Altair, we can design data visualizations ranging from simple to complex using only relatively concise grammar. Until now, Altair version 4.2.0 has been released.
 
-Cons
-----
+![](https://miro.medium.com/max/1155/1*eBKKL31X8z1O4sAIyQE9gA.png)
 
-Matplotlib can plot anything, but it may be complex to plot non-basic plots or adjust the plots to look nice.
+Several types of data visualization can be created using Altair (Image from [Altair](https://altair-viz.github.io/index.html)).
 
-Even though the plot is good enough to visualize the distribution, if you want to represent your data to others, you will need to fix the x-axis, y-axis, which takes a lot of effort. This is because Matplotlib has an extremely **low-level interface**.
+Before using Altair you need to install it first. Almost like Seaborn, when you install Altair, the following modules will also be installed as entrypoints, jsonschema, NumPy, Pandas, and Toolz.
+```
+# Install using pip:  
+pip install altair
+# Install using conda:  
+conda install -c conda-forge altair
+```
+You can read more about Altair [here](https://altair-viz.github.io/index.html).
 
-Takeaway: Matplotlib can plot anything but complex plots might take much more codes than other libraries
---------------------------------------------------------------------------------------------------------
+**6\. Pydeck**
+==============
 
-Seaborn
-=======
+in the last position, there is Pydeck as a popular python library for data visualization. Pydeck is a python library for high-scale spatial rendering and plots visualizations as layers on top of Mapbox. To use Pydeck you need internet access, if there is no internet access then the visualization will not render. With Pydeck we can enable or disable map controls and also modify the kind of map projection, like plotting in flat plane instead of plotting on a Mercator projection. Until now, Pydeck version 0.7.1 has been released.
 
-[Seaborn](https://seaborn.pydata.org/) is a Python data visualization library based on Matplotlib. It provides a higher-level wrapper on the library which makes it easier to use.
+Before using Pydeck you need to install it first.
 
-Pros
-----
+```
+# Install using pip:  
+pip install pydeck
+# Install using conda:  
+conda install -c conda-forge pydeck
+```
 
-1.  **Less code**
+You can read more about Pydeck [here](https://deckgl.readthedocs.io/en/latest/).
 
-It provides a higher-level interface for similar plots. In another word, seaborn generally provides similar plots as matplotlib, but with less code and a nicer design.
+**References:**
+===============
 
-We use the same data as before to draw a similar heatmap of the graph.
+\[1\] [J. D. Hunter, “Matplotlib: A 2D Graphics Environment”, Computing in Science & Engineering, vol. 9, no. 3, pp. 90–95, 2007](https://doi.org/10.1109/MCSE.2007.55).
 
-We get a better heatmap without setting the x and y label!
+\[2\] Knaflic, C. (2015). Storytelling with Data: A Data Visualization Guide for Business Professionals. Wiley.
 
-2\. Make common-used plots prettier
------------------------------------
+\[3\] Waskom, M. L., (2021). seaborn: statistical data visualization. Journal of Open Source Software, 6(60), 3021, [https://doi.org/10.21105/joss.03021](https://doi.org/10.21105/joss.03021)
 
-Many people opt for seaborn when it comes to popular plots such as bar plot, box plot, count plot, histograms, etc not just because they could be created with less code but also they look much prettier. As we can see in our example above, the colors also look better than the defaults one of Matplotlib.
+\[4\] [https://plotly.com/python/](https://plotly.com/python/)
 
-Cons
-----
+\[5\] [https://docs.bokeh.org/en/latest/index.html](https://docs.bokeh.org/en/latest/index.html)
 
-Seaborn is more constrained and does not have as wide a collection as matplotlib
+\[6\] [https://altair-viz.github.io/index.html](https://altair-viz.github.io/index.html)
 
-**Takeaway: Seaborn is a higher-level version of Matplotlib. Even though it does not have a wide collection as Matplotlib, seaborn makes popular plots such as bar plot, box plot, heatmap, etc look pretty in less code.**
+\[7\] [https://deckgl.readthedocs.io/en/latest/](https://deckgl.readthedocs.io/en/latest/)
 
-Plotly
-======
-
-[Plotly’s Python](https://plotly.com/python/) graphing library makes it easy to create interactive, publication-quality graphs. It can also create similar charts as Matplotlib and seaborn such as line plots, scatter plots, area charts, bar charts, etc.
-
-Pros
-----
-
-1.  **Like R**
-
-If you are a fan of plots in R and miss its features when switching to Python, Plotly gives you the same quality plots using Python!
-
-My favorite is [**Plotly Express**](https://plotly.com/python/plotly-express/) because it makes it really easy and it is even faster to create great plots from a single line of Python.
-
-2\. Easy to create interactive plots
-------------------------------------
-
-Plotly also makes it easy to create interactive plots. Interactive plots are not only pretty but also make it easier for viewers to take a closer look at each data point.
-
-Remember the bar plot we have earlier with matplotlib? Let’s see how it turns out with Plotly
-
-With about the same lines of code, we produce an interactive plot that we could hover your mouse over each bar to see what user and the number of followers the bar represents. This means the consumer of your visualization can explore it themselves.
-
-**3\. Complex plots made easy**
-
-With Plotly, some plots that are usually challenging to create can be created easily.
-
-For example, if we wanted to create a map to visualize the locations of Github users, we can find their latitudes and longitudes as shown [here](/i-scraped-more-than-1k-top-machine-learning-github-profiles-and-this-is-what-i-found-1ab4fb0c0474?source=your_stories_page---------------------------), and then use that data to spot the locations of users on the map like this
-
-With a few lines of codes, the locations of all users are beautifully represented on a map. The color of the bubbles represents the number of forks and the size represents the total number of stars
-
-**Takeaway: Plotly is great to create interactive and publication-quality graphs with few lines of code.**
-
-Altair
-======
-
-[Altair](https://altair-viz.github.io/) is a declarative statistical visualization library for Python based on vega-lite, which makes it ideal for plots that require a lot of statistical transformation.
-
-Pros
-----
-
-**1\. Simple visualization grammar**
-
-The grammar used to create the visualization is easy to understand. It needs to only mention the links between the data columns to the encoding channels and the rest plotting is handled automatically. This sounds abstract but is a **big deal** when you are working with data, and it makes visualizing information really fast and intuitive.
-
-For example, with the titanic data above, we would like to count the number the people in each class, all we need is to use `count()` in the y\_axis
-
-**2\. Easy to Transform Data**
-
-Altair also makes it really easy to **transform the data** while creating the chart
-
-For example, if we would like to find the average age of each sex in the titanic, instead of doing the transformation in advance like Plotly, we could perform the transformation within the code to create the chart.
-
-The logic here is to use `transform_aggregate()` to take the average of the age (`mean(age)`) of each sex ( `groupby=[‘sex’]` ) and save the average to the variable `mean_age)`. We take this variable as the y\_axis.
-
-We could also make sure that the class is a nominal data (categorical data without any order) using `:N` or make sure the mean\_age is a quantitative data (measures of values such as numbers) using `:Q`
-
-See a full list of data transformations [here](https://altair-viz.github.io/user_guide/transform/index.html)
-
-**3\. Easy to Link Plots**
-
-Altair also allows you to do some impressive linking between plots such as using an interval selection to filter the contents of an attached histogram.
-
-For example, if we want to visualize the number of people in each class within the interval we select a point chart between age and fare, we could do something like this.
-
-As we drag our mouse to select the interval within the scatter plot, we could see the change in the bar chart below. When combined with the transforms and calculations from earlier, this means you can create some extremely interactive plots which do on-the-fly calculations — without even requiring a running Python server!
-
-Cons
-----
-
-Unless you specify custom styling, the simple charts such as the bar chart do not look as styled as seaborn or Plotly. Altair also does not recommend datasets with above 5000 samples and instead recommends that you aggregate your data prior to visualization.
-
-**Takeaway: Altair is ideal for sophisticated charts to show statistics. Altair cannot handle data above 5000 samples and some simple charts do not look as styled compared to Plotly or Seaborn.**
-
-Bokeh
-=====
-
-Bokeh is a flexible interactive visualization library that targets web browsers for representation.
-
-Pros
-----
-
-1.  **Interactive version of Matplotlib**
-
-If we will rank among the interactive visualization libraries above, Bokeh will probably rank first in regards to the similarity to Matplotlib.
-
-Matplotlib can create any plot because it is a low-level visualization library. Bokeh can be both used as a high-level or low-level interface; thus, it can create many sophisticated plots that Matplotlib creates but with fewer lines of code and higher resolution.
-
-For example, the circle plot of Matplotlib
-
-Could also be created with better resolution and more utility using Bokeh
-
-**2\. Link between Plots**
-
-Bokeh also makes it really easy to link between plots. The change applied in one plot will be applied to another plot with a similar variable.
-
-For example, if we create 3 graphs side by side and want to observe their relationship, we could use linked brushing
-
-![](https://miro.medium.com/max/1155/1*zV7TmQw4c9H7Eke_9yHnyg.gif)
-
-`ColumnDataSource` enables the data to be shared among plots. Thus, when we apply the change to one plot, the other plots are also changed accordingly.
-
-Cons
-----
-
-Because Bokeh is a library that somewhat has a middle-level interface, it often takes less code than Matplotlib but takes more code to produce the same plot as Seaborn, Altair, or Plotly.
-
-For example, to create the same count plot using titanic data, besides the need of transforming the data in advance, we also need to set the width of the bar and color if we want out the graph to look nice
-
-If we didn’t add width for the bar graph, the graph would look like this
-
-Thus, we need to manually adjust the dimensions to make the plot nicer
-
-If you want to create a nice bar plot in less code, this might be the drawback of Bokeh compared to other libraries
-
-**Takeaway: Bokeh is the only library whose interface ranges from low to high, which makes it easy to produce both versatile and elegant graphics. This, however, comes with the cost that it generally takes more code for Bokeh to create the plots with a similar quality to other libraries.**
-
-Folium
-======
-
-[Folium](https://python-visualization.github.io/folium/) makes it easy to visualize data on an interactive leaflet map. The library has a number of built-in tilesets from OpenStreetMap, Mapbox, and Stamen
-
-Pros
-----
-
-1.  **Easy to create a map with markers**
-
-Even though Plotly, Altair, and Bokeh also enable us to create maps, Folium uses an open street map to give you a closer feeling to a Google Map with minimum code
-
-Remember how we create the map to visualize the locations of Github users using Plotly? We could make the map look even nicer with Folium
-
-The initial location in Brooklyn, NY. Zoom out to see other locations on the map. With some lines of codes, we have created a real map showing the locations of users.
-
-**2\. Add potential location**
-
-If we want to add potential locations of other users, Folium makes it easy to do by allowing users to add markers
-
-Click on the map to see a new location generated right where you click.
-
-**3\. Plugins**
-
-Folium has a number of plugins you can use with your map — including a plugin to Altair. What if we want to see the heat map of the total stars of Github users in the world to identify where there is a high number of top Github users with a high number of the total stars? The heatmap in Folium plugins allows you to do just that.
-
-Zoom out to see the complete picture of the heatmap.
-
-**Takeaway: Folium allows you to create an interactive map with few lines of codes. It gives you close to the experience of a Google Map.**
-
-Conclusion
-==========
-
-Congratulation! You have just learned about six different visualization tools for your visualization. I hope this article gives you a sense of what each library does and when to use what. Grasping the key features of each library will make it faster for you to pull out the right library as you need.
-
-If you are still confused about which library to use for your data, just pick one that you find good enough. Then if the code is too long or the graph does not turn out as good as you imagine, just try with another library!
 
 
 `Original article`: 
-> https://towardsdatascience.com/top-6-python-libraries-for-visualization-which-one-to-use-fe43381cd658
+> https://medium.com/mlearning-ai/top-python-libraries-for-data-visualization-static-and-interactive-visualization-e5f1bc72de41
 > 
