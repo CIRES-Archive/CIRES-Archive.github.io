@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How does GPT Obtain its Ability? Tracing Emergent Abilities of Language Models to their Sources"
+title:  "How does GPT Obtain its Ability? "
 author: Junliang
 categories: [ Tech Report, tutorial ]
 image: assets/images/chatgpt.jpg
