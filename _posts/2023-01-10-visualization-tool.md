@@ -6,8 +6,6 @@ image: assets/images/12.jpg
 tags: featured
 ---
 
-![](https://miro.medium.com/max/1155/0*CUq-RVgGP3Ur6m-Q)
-
 Motivation
 ==========
 
