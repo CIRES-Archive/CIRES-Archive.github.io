@@ -3,7 +3,7 @@ layout: post
 title:  "Welcome to Archive of Information Resilience!"
 categories: [ welcome ]
 image: assets/images/archive.jpg
-comment:false
+comments:false
 ---
 Welcome to the Archive of `Information Resilience`! Our goal is to provide you with a comprehensive collection of knowledge and resources on `Information Resilience`. This website serves as a hub for researchers, students, and anyone seeking information related to `Information Resilience`.
 
