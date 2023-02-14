@@ -1,6 +1,6 @@
 # Site
-name: 'CIRES ARCHIVE'
-description: 'Find all the stories of CIRES'
+name: 'ARCHIVE of Information Resilience'
+description: 'Find all the documents of Information Resilience'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: ''
