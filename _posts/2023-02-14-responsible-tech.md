@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Reading Group: How to Develop and Use AI in a Responsible Way"
-categories: [ Reading Group, Krishna ]
+categories: [ Reading-Group, Krishna ]
 image: assets/images/reading/responsible_ai.png
 comments: true
 ---
