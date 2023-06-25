@@ -4,7 +4,6 @@ title:  "How Does ChatGPT Obtain its Ability? "
 author: Junliang
 categories: [ Tech-Report, tutorial ]
 image: assets/images/chatgpt.jpg
-tags: [sticky]
 ---
 
 Recently, the field has been greatly impressed and inspired by OpenAI’s ChatGPT. It is undoubtedly clever, capable, and very fun to talk to. Its multi-faceted abilities are significantly beyond many NLP researchers’ and practitioners’ expectations based on the impression of (not-that-strong) original GPT-3. The natural question is how ChatGPT gets there, and where these fantastic abilities come from. In this post, we try to dissect the emergent abilities and trace them to their sources, hoping to give a comprehensive roadmap about how the GPT-3.5 model family, along with related large language models, evolved to their current forms. 
