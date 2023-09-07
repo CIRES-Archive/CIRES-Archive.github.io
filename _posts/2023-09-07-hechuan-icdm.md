@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hechuan's Paper accepted by ICDM"
-categories: [ Reading-Group, Hechuan ]
+categories: [ Achievement, Hechuan ]
 image: assets/images/hechuan-icdm-23.png
 comments: true
 ---
