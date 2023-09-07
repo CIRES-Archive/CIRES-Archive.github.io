@@ -6,7 +6,7 @@ image: assets/images/hechuan-icdm-23.png
 comments: true
 ---
 
-🎉 Congratulations Hechuan! 🎉
+Congratulations Hechuan! 🎉🎉🎉
 
 We are proud to announce that our PhD student Hechuan has had a paper accepted by the International Conference on Data Mining (ICDM) this year! This is an extraordinary achievement and a testament to Hechuan’s hard work, dedication, and expertise in the field.
 
